@@ -64,7 +64,7 @@ nav {
 /* Styles section home */
 
 #home {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
 }
@@ -119,7 +119,7 @@ nav {
 
 /* Styles section about */
 #about {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
 }
@@ -181,7 +181,7 @@ nav {
 
 /* Styles section food menu */
 #menu {
-    height: 100vh;
+    height: 90vh;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -264,7 +264,7 @@ nav {
 }
 /* Styles section services */
 #services {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,7 +331,7 @@ nav {
 /* Styles quality section */
 
 #quality {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
