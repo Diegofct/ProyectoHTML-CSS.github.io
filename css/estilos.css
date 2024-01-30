@@ -61,6 +61,17 @@ nav {
     color: var(--clr-botones);
 }
 
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: var(--clr-white);
+    cursor: pointer;
+    display: none;
+}
+
 /* Styles section home */
 
 #home {
@@ -431,4 +442,16 @@ nav {
 }
 
 
+/* Responsive Design */
 
+@media (max-width: 400px) {
+    
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    
+}
+
+@media (min-width: 800px) {
+    
+}
