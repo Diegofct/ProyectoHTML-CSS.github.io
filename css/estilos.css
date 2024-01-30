@@ -513,6 +513,74 @@ nav {
         padding: 15px;
         display: block;
     }
+
+    #home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        height: 100vh;
+    }
+
+    .cover-left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .cover-left h1 {
+        font-size: 3rem;
+    }
+
+    .cover-left button {
+        height: 40px;
+        width: 130px;
+    }
+
+    .cover-right {
+        width: 100%;
+    }
+
+    .cover-right img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .div-left {
+        width: 100%;
+    }
+
+    .div-left img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .div-right {
+        width: 100%;
+    }
+
+    .div-right .big-text {
+        font-size: 2rem;
+    }
+
+    .div-right .small-text {
+        font-size: 1rem;
+    }
+
+    .div-right button {
+        width: 130px;
+        height: 40px;
+    }
 }
 
 @media (min-width: 800px) {
