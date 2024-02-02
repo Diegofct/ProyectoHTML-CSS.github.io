@@ -78,6 +78,7 @@ nav {
     height: calc(100vh - 100px);
     display: flex;
     justify-content: space-around;
+    background-color: #3d3c5e;
 }
 
 .cover-left {
@@ -130,7 +131,6 @@ nav {
 
 /* Styles section about */
 #about {
-    margin-top: 100px;
     height: calc(100vh - 100px);
     display: flex;
     justify-content: space-around;
@@ -193,11 +193,12 @@ nav {
 
 /* Styles section food menu */
 #menu {
-    margin-top: 100px;
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
+    background-color: #3d3c5e;
 }
 
 .above {
@@ -275,10 +276,10 @@ nav {
 }
 /* Styles section services */
 #services {
-    margin-top: 100px;
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
     text-align: center;
@@ -342,6 +343,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3d3c5e;
 }
 
 .white-container {
@@ -388,7 +390,7 @@ nav {
 /* Styles footer */
 
 #footer {
-    margin-top: 100px;
+    background-color: #1c1b2f;
 }
 
 .footer-container {
@@ -856,5 +858,44 @@ nav {
 
     .contact-us h3 {
         width: 178px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+
+    .lista ul {
+        margin-right: 10px;
+    }
+
+    .lista ul li {
+        width: 40px;
+    }
+
+    .lista ul li a {
+        font-size: 18px;
+    }
+
+    .cover-left {
+        text-align: center;
+    }
+
+    .inside-container {
+        text-align: center;
+    }
+
+    .menu-links h3 {
+        font-size: 25px;
+    }
+
+    .our-service h3 {
+        font-size: 25px;
+    }
+
+    .information h3{
+        font-size: 25px;
+    }
+
+    .contact-us h3 {
+        font-size: 25px;
     }
 }
