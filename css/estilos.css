@@ -459,7 +459,7 @@ nav {
     height: 80px;
     left: 5%;
     animation-duration: 3s;
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 
 .burbuja:nth-child(2) {
@@ -467,7 +467,7 @@ nav {
     height: 100px;
     left: 35%;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 
 .burbuja:nth-child(3) {
@@ -475,7 +475,7 @@ nav {
     height: 20px;
     left: 15%;
     animation-duration: 1.5s;
-    animation-delay: 7s;
+    animation-delay: 1s;
 }
 
 .burbuja:nth-child(4) {
@@ -483,7 +483,7 @@ nav {
     height: 50px;
     left: 90%;
     animation-duration: 6s;
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 
 .burbuja:nth-child(5) {
@@ -499,7 +499,7 @@ nav {
     height: 20px;
     left: 50%;
     animation-duration: 4s;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 
 .burbuja:nth-child(7) {
@@ -507,7 +507,7 @@ nav {
     height: 40px;
     left: 80%;
     animation-duration: 5s;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 
 
